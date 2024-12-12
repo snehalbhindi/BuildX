@@ -1,0 +1,35 @@
+/* Styling the dots container */
+.slick-dots {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 30px; /* Adjusted position for alignment */
+    left: 50%;
+    transform: translateX(-50%); /* Center align horizontally */
+    width: 72px;
+    height: 12px;
+    gap: 0px;
+}
+
+/* Default dot styles */
+.slick-dots li {
+    display: inline-block;
+    width: 12px; /* Adjusted width for better visuals */
+    height: 12px; /* Consistent height with your requirements */
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%; /* Circle shape */
+    border: 3px solid transparent; /* Added border for better visibility */
+    background: rgba(255, 183, 0, 0.5); /* Yellow with opacity */
+    transition: background 0.3s ease, transform 0.3s ease;
+    opacity: 0.5; /* Initial opacity */
+}
+
+/* Active dot styling */
+.slick-dots li.slick-active {
+    background: #FFB700; /* Bright yellow for active dot */
+    opacity: 1; /* Fully visible active dot */
+    transform: scale(1.2); /* Enlarged active dot */
+}

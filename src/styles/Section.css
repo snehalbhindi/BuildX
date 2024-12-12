@@ -1,0 +1,37 @@
+.consulting-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+  }
+  
+  .consulting-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .service-boxes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .service-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .get-quote-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,122 @@
+.consulting-wrapper {
+  display: flex;
+  align-items: flex-start; /* Align content and image to the top */
+  gap: 20px; /* Minimal spacing between image and content */
+  margin: 20px 0;
+}
+
+/* Consulting Section Styling */
+.consulting-section {
+  display: flex;
+  flex-direction: column; /* Stack service boxes vertically */
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Ensures responsive sizing */
+}
+/* Service Boxes */
+.service-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px; /* Space between the icon and text */
+}
+.service-box .icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.service-box h6, .service-box h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.service-box p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Consulting Image Styling */
+.consulting-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional for rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Matches section style */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .consulting-wrapper {
+    flex-direction: column; /* Stack image and content vertically */
+  }
+
+  .consulting-section,
+  .consulting-image {
+    width: 100%; /* Make elements take full width */
+  }
+}
+
+
+
+
+
+
+
+/* Yellow tab (optional element) */
+.yellow-tab {
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yellow-tab h2 {
+  margin: 0;
+  font-size: 18px;
+  flex: 1;
+}
+
+.yellow-tab a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.yellow-tab a:hover {
+  text-decoration: underline;
+}
+
+.get-quote-btn {
+  background-color: #fff;
+  color: #252C3A;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-quote-btn:hover {
+  background-color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .consulting-wrapper {
+    flex-direction: column; /* Stack image and content vertically */
+  }
+
+  .consulting-section,
+  .consulting-image {
+    width: 100%; /* Make elements take full width */
+  }
+}
